@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe", // <-- 핵심: 현재 파일에 맞는 exe 파일을 실행
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}", // <-- 핵심: 프로그램을 파일이 있는 디렉토리에서 실행
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe", // gdb 경로, 사용자 환경에 맞게 확인/수정
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe build active file" // <-- tasks.json의 "label"과 정확히 일치해야 함
+        }
+    ]
+}
