@@ -10,31 +10,21 @@
 
 
 
-1\.  \[Task 1: 스마트 포인터를 활용한 리소스 관리](#task-1-스마트-포인터를-활용한-리소스-관리)
+\*   \[\*\*환경설정\*\*](#환경설정)
 
-2\.  \[Task 2: 템플릿과 STL을 활용한 컨테이너 설계](#task-2-템플릿과-stl을-활용한-컨테이너-설계)
+&nbsp;   \*   \[C++ (Task 1, 2, 3)](#c-과제-task-1-2-3)
 
-3\.  \[Task 3: 멀티스레딩과 함수형 프로그래밍을 활용한 병렬 처리](#task-3-멀티스레딩과-함수형-프로그래밍을-활용한-병렬-처리)
+&nbsp;   \*   \[Python (Task 4)](#python-과제-task-4)
 
-4\.  \[Task 4: Python RESTful API 서버 구현](#task-4-python-restful-api-서버-구현)
+\*   \[\*\*빌드 및 실행 방법\*\*](#빌드-및-실행-방법)
 
+&nbsp;   \*   \[Task 1](#task-1)
 
+&nbsp;   \*   \[Task 2](#task-2)
 
----
+&nbsp;   \*   \[Task 3](#task-3)
 
-
-
-\## 💻 개발 환경 (Development Environment)
-
-
-
-\*   \*\*운영체제 (OS):\*\* Windows 11
-
-\*   \*\*코드 편집기 (IDE):\*\* Visual Studio Code
-
-\*   \*\*C++ 컴파일러 (Compiler):\*\* g++ (MinGW-w64)
-
-\*   \*\*Python 버전:\*\* Python 3.9+
+&nbsp;   \*   \[Task 4](#task-4)
 
 
 
@@ -42,7 +32,11 @@
 
 
 
-\## 🛠 사전 준비 사항 (Prerequisites)
+\## 💻 환경설정
+
+
+
+이 섹션에서는 각 과제를 수행하기 위해 필요한 개발 환경 및 사전 준비 사항을 안내합니다.
 
 
 
@@ -62,7 +56,7 @@
 
 
 
-1\.  \*\*Python:\*\* \[공식 웹사이트](https://www.python.org/downloads/) 에서 Python 3.9 이상 버전을 설치합니다.
+1\.  \*\*Python:\*\* \[공식 웹사이트](https://www.python.org/downloads/)에서 Python 3.9 이상 버전을 설치합니다.
 
 2\.  \*\*가상 환경 설정 (권장):\*\* 프로젝트의 독립성을 위해 가상 환경을 설정합니다.
 
@@ -82,7 +76,7 @@
 
 &nbsp;   ```
 
-3\.  \*\*패키지 설치:\*\* API 서버 구동에 필요한 패키지들을 설치합니다.
+3\.  \*\*패키지 설치:\*\* API 서버 구동에 필요한 패키지들을 설치합니다. (`requirements.txt` 파일을 제공하는 경우 `pip install -r requirements.txt` 로 대체 가능)
 
 &nbsp;   ```bash
 
@@ -96,21 +90,25 @@
 
 
 
-\## 🚀 빌드 및 실행 방법 (How to Build and Run)
+\## 🚀 빌드 및 실행 방법
 
 
 
-\### Task 1: 스마트 포인터를 활용한 리소스 관리
+이 섹션에서는 각 과제를 컴파일하고 실행하는 상세한 방법을 안내합니다.
 
 
+
+\### Task 1
+
+
+
+\*   \*\*문제:\*\* 스마트 포인터를 활용한 리소스 관리
 
 \*   \*\*소스 파일:\*\* `과제1/Problem1.cpp`
 
 
 
 \#### 방법 A: VS Code의 Task 기능 이용 (권장)
-
-
 
 1\.  VS Code에서 `과제.code-workspace` 파일을 엽니다.
 
@@ -122,49 +120,25 @@
 
 \#### 방법 B: 터미널을 이용한 직접 실행
 
+1\.  VS Code 터미널에서 `과제1` 폴더로 이동합니다: `cd 과제1`
 
+2\.  컴파일 명령어: `g++ -o Problem1.exe Problem1.cpp`
 
-1\.  VS Code 터미널을 열고 `과제1` 폴더로 이동합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   cd 과제1
-
-&nbsp;   ```
-
-2\.  아래 명령어로 코드를 컴파일하여 `Problem1.exe` 실행 파일을 생성합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   g++ -o Problem1.exe Problem1.cpp
-
-&nbsp;   ```
-
-3\.  아래 명령어로 프로그램을 실행합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   ./Problem1.exe
-
-&nbsp;   ```
+3\.  실행 명령어: `./Problem1.exe`
 
 
 
----
+\### Task 2
 
 
 
-\### Task 2: 템플릿과 STL을 활용한 컨테이너 설계
-
-
+\*   \*\*문제:\*\* 템플릿과 STL을 활용한 컨테이너 설계
 
 \*   \*\*소스 파일:\*\* `과제2/Problem2.cpp` (예시 파일명)
 
 
 
 \#### 방법 A: VS Code의 Task 기능 이용 (권장)
-
-
 
 1\.  VS Code에서 `과제.code-workspace` 파일을 엽니다.
 
@@ -176,49 +150,25 @@
 
 \#### 방법 B: 터미널을 이용한 직접 실행
 
+1\.  VS Code 터미널에서 `과제2` 폴더로 이동합니다: `cd 과제2`
 
+2\.  컴파일 명령어: `g++ -o Problem2.exe Problem2.cpp`
 
-1\.  VS Code 터미널을 열고 `과제2` 폴더로 이동합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   cd 과제2
-
-&nbsp;   ```
-
-2\.  아래 명령어로 코드를 컴파일하여 `Problem2.exe` 실행 파일을 생성합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   g++ -o Problem2.exe Problem2.cpp
-
-&nbsp;   ```
-
-3\.  아래 명령어로 프로그램을 실행합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   ./Problem2.exe
-
-&nbsp;   ```
+3\.  실행 명령어: `./Problem2.exe`
 
 
 
----
+\### Task 3
 
 
 
-\### Task 3: 멀티스레딩과 함수형 프로그래밍을 활용한 병렬 처리
-
-
+\*   \*\*문제:\*\* 멀티스레딩과 함수형 프로그래밍을 활용한 병렬 처리
 
 \*   \*\*소스 파일:\*\* `과제3/Problem3.cpp` (예시 파일명)
 
 
 
 \#### 방법 A: VS Code의 Task 기능 이용 (권장)
-
-
 
 1\.  VS Code에서 `과제.code-workspace` 파일을 엽니다.
 
@@ -230,71 +180,31 @@
 
 \#### 방법 B: 터미널을 이용한 직접 실행
 
+1\.  VS Code 터미널에서 `과제3` 폴더로 이동합니다: `cd 과제3`
 
+2\.  컴파일 명령어: `g++ -o Problem3.exe Problem3.cpp -pthreads`
 
-1\.  VS Code 터미널을 열고 `과제3` 폴더로 이동합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   cd 과제3
-
-&nbsp;   ```
-
-2\.  아래 명령어로 코드를 컴파일하여 `Problem3.exe` 실행 파일을 생성합니다. (멀티스레딩 코드는 `-pthreads` 옵션 추가가 필요할 수 있습니다)
-
-&nbsp;   ```bash
-
-&nbsp;   g++ -o Problem3.exe Problem3.cpp -pthreads
-
-&nbsp;   ```
-
-3\.  아래 명령어로 프로그램을 실행합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   ./Problem3.exe
-
-&nbsp;   ```
+3\.  실행 명령어: `./Problem3.exe`
 
 
 
----
+\### Task 4
 
 
 
-\### Task 4: Python RESTful API 서버 구현
-
-
+\*   \*\*문제:\*\* Python RESTful API 서버 구현
 
 \*   \*\*소스 파일:\*\* `과제4/main.py` (예시 파일명)
 
 
 
-1\.  VS Code 터미널을 열고 `과제4` 폴더로 이동합니다.
+1\.  VS Code 터미널에서 `과제4` 폴더로 이동합니다: `cd 과제4`
 
-&nbsp;   ```bash
+2\.  \*\*(최초 1회)\*\* 위 `환경설정`에 따라 Python 가상 환경을 설정하고 패키지를 설치합니다.
 
-&nbsp;   cd 과제4
+3\.  가상 환경을 활성화합니다: `.\\venv\\Scripts\\activate`
 
-&nbsp;   ```
+4\.  FastAPI 개발 서버를 실행합니다: `uvicorn main:app --reload`
 
-2\.  \*\*(최초 1회)\*\* 위 `사전 준비 사항`에 따라 Python 가상 환경을 설정하고 패키지를 설치합니다. 이미 했다면 건너뜁니다.
-
-3\.  가상 환경을 활성화합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   .\\venv\\Scripts\\activate
-
-&nbsp;   ```
-
-4\.  아래 명령어를 입력하여 FastAPI 개발 서버를 실행합니다.
-
-&nbsp;   ```bash
-
-&nbsp;   uvicorn main:app --reload
-
-&nbsp;   ```
-
-5\.  서버가 `http://127.0.0.1:8000` 에서 실행됩니다. 과제 설명에 나온 `입력 파이선 파일`을 실행하거나 웹 브라우저, Postman 등으로 API를 테스트할 수 있습니다.
+5\.  서버가 `http://127.0.0.1:8000` 에서 실행되면, 웹 브라우저나 별도의 테스트 스크립트로 API를 호출할 수 있습니다.
 
