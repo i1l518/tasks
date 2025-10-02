@@ -1,12 +1,18 @@
 #include "CircularBuffer.h" 
+// 콘솔(터미널)에 텍스트를 출력하기 위해 (std::cout) 필요한 헤더입니다.
 #include <iostream>
+// 문자열을 다루는 std::string을 사용하기 위해 포함합니다. (이 코드에서는 직접 사용되진 않음)
 #include <string>
+// std::accumulate 함수(범위 내의 합계를 구하는 함수)를 사용하기 위해 필요한 헤더입니다.
 #include <numeric>   
+// std::max_element 함수(범위 내의 최댓값을 찾는 함수)를 사용하기 위해 필요한 헤더입니다.
 #include <algorithm> 
+// std::vector를 사용하기 위해 포함합니다. (이 코드에서는 비교/테스트 용도로만 언급됨)
 #include <vector>    
+// 소수점 출력을 예쁘게 포맷팅하기 위해 (std::fixed, std::setprecision) 필요한 헤더입니다.
 #include <iomanip>   
 
-
+// 프로그램의 실행이 시작되는 메인 함수입니다.
 int main() {
     // --- 1. 객체 생성 ---
     // double 타입의 데이터를 저장하고, 최대 용량(capacity)이 5인 CircularBuffer 객체를 생성합니다.

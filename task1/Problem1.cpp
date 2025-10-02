@@ -9,7 +9,7 @@
 #include <iomanip>      
 #include <stdexcept>    
 
-// --- 로그 파일 관리자(LogFileManager) 클래스 설계도 ---
+// --- 로그 파일 관리자(LogFileManager) 클래스 설계도 ls---
 class LogFileManager {
 public: // 'public'은 외부에서 사용할 수 있는 공개 기능들을 의미합니다.
 

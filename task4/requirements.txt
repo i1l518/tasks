@@ -1,20 +1,10 @@
-# FastAPI: 비동기 웹 프레임워크의 핵심. API 서버를 만듭니다.
 fastapi
-
-# Uvicorn: FastAPI로 만든 앱을 실행시켜주는 고성능 ASGI 서버.
 uvicorn[standard]
-
-# SQLAlchemy: 파이썬 ORM(객체 관계 매핑) 라이브러리. 파이썬 코드로 데이터베이스를 조작하게 해줍니다.
 sqlalchemy
-
-# Pydantic-Settings: .env 파일에서 환경 변수를 쉽게 불러와서 관리하게 해줍니다.
-pydantic-settings
-
-# Python-JOSE: JWT(JSON Web Token)를 생성하고 검증하는 데 사용됩니다. 사용자 인증 토큰에 필요합니다.
+pydantic
 python-jose[cryptography]
-
-# Passlib: 비밀번호를 안전하게 해싱(암호화)하고 검증하는 라이브-러리. bcrypt 알고리즘을 사용합니다.
-passlib[bcrypt]
-
-# Python-Multipart: HTML 폼 데이터를 처리할 때 필요합니다. 로그인 시 username, password를 form 형식으로 받기 위해 사용됩니다.
+passlib==1.7.4   
+bcrypt==3.2.0   
 python-multipart
+requests
+email-validator
