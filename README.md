@@ -62,7 +62,7 @@
 
 
 
-1\.  \*\*Python:\*\* \[공식 웹사이트](https://www.python.org/downloads/)에서 Python 3.9 이상 버전을 설치합니다.
+1\.  \*\*Python:\*\* \[공식 웹사이트](https://www.python.org/downloads/) 에서 Python 3.9 이상 버전을 설치합니다.
 
 2\.  \*\*가상 환경 설정 (권장):\*\* 프로젝트의 독립성을 위해 가상 환경을 설정합니다.
 
