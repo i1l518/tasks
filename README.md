@@ -5,9 +5,9 @@
 ## 📝 목차 (Table of Contents)
 
 *   [**환경설정**](#환경설정)
-    *   [C++ (Task 1, 2, 3)](#c-과제-task-1-2-3)
-    *   [Python (Task 4)](#python-과제-task-4)
-    *   [Python (Task 5)](#python-과제-task-5)
+    *   [C++ (Task 1, 2, 3)](#c-task-1-2-3)
+    *   [Python (Task 4)](#python-task-4)
+    *   [Python (Task 5)](#python-task-5)
 *   [**빌드 및 실행 방법**](#빌드-및-실행-방법)
     *   [Task 1](#task-1)
     *   [Task 2](#task-2)
@@ -72,54 +72,39 @@
 ### Task 1
 
 *   **문제:** 스마트 포인터를 활용한 리소스 관리
-*   **소스 파일:** `과제1/Problem1.cpp`
+*   **소스 파일:** `task1/Problem1.cpp`
 
-#### 방법 A: VS Code의 Task 기능 이용 (권장)
-1.  VS Code에서 `과제.code-workspace` 파일을 엽니다.
-2.  `과제1/Problem1.cpp` 파일을 클릭하여 편집기 창을 활성화합니다.
-3.  `F5` 키를 누르면 자동으로 컴파일 및 실행이 진행됩니다.
-
-#### 방법 B: 터미널을 이용한 직접 실행
-1.  VS Code 터미널에서 `과제1` 폴더로 이동합니다: `cd 과제1`
+#### 방법: 터미널을 이용한 직접 실행
+1.  VS Code 터미널에서 `task1` 폴더로 이동합니다: `cd task1`
 2.  컴파일 명령어: `g++ -o Problem1.exe Problem1.cpp`
 3.  실행 명령어: `./Problem1.exe`
 
 ### Task 2
 
 *   **문제:** 템플릿과 STL을 활용한 컨테이너 설계
-*   **소스 파일:** `과제2/Problem2.cpp` (예시 파일명)
+*   **소스 파일:** `task2/Problem2.cpp` (예시 파일명)
 
-#### 방법 A: VS Code의 Task 기능 이용 (권장)
-1.  VS Code에서 `과제.code-workspace` 파일을 엽니다.
-2.  `과제2/Problem2.cpp` 파일을 클릭하여 편집기 창을 활성화합니다.
-3.  `F5` 키를 누르면 자동으로 컴파일 및 실행이 진행됩니다.
-
-#### 방법 B: 터미널을 이용한 직접 실행
-1.  VS Code 터미널에서 `과제2` 폴더로 이동합니다: `cd 과제2`
+#### 방법: 터미널을 이용한 직접 실행
+1.  VS Code 터미널에서 `task2` 폴더로 이동합니다: `cd task2`
 2.  컴파일 명령어: `g++ -o Problem2.exe Problem2.cpp`
 3.  실행 명령어: `./Problem2.exe`
 
 ### Task 3
 
 *   **문제:** 멀티스레딩과 함수형 프로그래밍을 활용한 병렬 처리
-*   **소스 파일:** `과제3/Problem3.cpp` (예시 파일명)
+*   **소스 파일:** `task3/Problem3.cpp` (예시 파일명)
 
-#### 방법 A: VS Code의 Task 기능 이용 (권장)
-1.  VS Code에서 `과제.code-workspace` 파일을 엽니다.
-2.  `과제3/Problem3.cpp` 파일을 클릭하여 편집기 창을 활성화합니다.
-3.  `F5` 키를 누르면 자동으로 컴파일 및 실행이 진행됩니다.
-
-#### 방법 B: 터미널을 이용한 직접 실행
-1.  VS Code 터미널에서 `과제3` 폴더로 이동합니다: `cd 과제3`
+#### 방법: 터미널을 이용한 직접 실행
+1.  VS Code 터미널에서 `task3` 폴더로 이동합니다: `cd task3`
 2.  컴파일 명령어: `g++ -o Problem3.exe Problem3.cpp -pthreads`
 3.  실행 명령어: `./Problem3.exe`
 
 ### Task 4
 
 *   **문제:** Python RESTful API 서버 구현
-*   **소스 파일:** `과제4/main.py` (예시 파일명)
+*   **소스 파일:** `task4/main.py` (예시 파일명)
 
-1.  VS Code 터미널에서 `과제4` 폴더로 이동합니다: `cd 과제4`
+1.  VS Code 터미널에서 `task4` 폴더로 이동합니다: `cd task4`
 2.  **(최초 1회)** 위 `환경설정`에 따라 Python 가상 환경을 설정하고 패키지를 설치합니다.
 3.  가상 환경을 활성화합니다: `.\venv\Scripts\activate`
 4.  FastAPI 개발 서버를 실행합니다: `uvicorn main:app --reload`
